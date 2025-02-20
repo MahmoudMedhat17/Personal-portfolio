@@ -1,5 +1,8 @@
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import { Linkedin } from 'lucide-react';
+import { Github } from 'lucide-react';
+import { Send } from 'lucide-react';
 
 const Footer = () => {
   return (
