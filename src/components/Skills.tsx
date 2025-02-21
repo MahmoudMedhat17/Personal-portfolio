@@ -9,9 +9,9 @@ const Skills = () => {
             {
                 techLinks.map((tech)=>(
                     <div className=" text-white hover:bg-primaryColor hover:text-gray-900 duration-200 border rounded-md border-gray-800 shadow-lg p-8 space-y-4" key={tech.title}>
-                        <div className="flex flex-col justify-center items-center">
-                        <span className="flex justify-center items-center">{tech.icon}</span>
-                        <p>{tech.title}</p>
+                        <div className="flex flex-col justify-center items-center space-y-2">
+                            <span className="flex justify-center items-center">{tech.icon}</span>
+                            <p className="font-semibold">{tech.title}</p>
                         </div>
                     </div>
                 ))
