@@ -7,15 +7,15 @@ import {
     SheetHeader,
     SheetTitle,
     SheetTrigger,
-  } from "@/components/ui/sheet";
+  } from "@/app/components/ui/sheet";
 import { Menu } from 'lucide-react';
 
   
 
 const Navbar = () => {
   return (
-    <header className="bg-gray-900 shadow-md">
-  <div className="mx-auto flex h-16 w-full items-center justify-between gap-8 px-4 sm:px-6 lg:px-20">
+    <header className="bg-gray-900 shadow-md sticky top-0 left-0 z-50">
+  <div className="mx-auto flex h-16 w-full items-center justify-between gap-8 px-4">
     <Link className="block text-primaryColor" href="/">
       <span className='font-extrabold text-2xl md:text-3xl'>MM</span>
     </Link>

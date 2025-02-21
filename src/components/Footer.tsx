@@ -1,18 +1,16 @@
-import { Button } from "@/components/ui/button";
-import Link from "next/link";
+import { Button } from "@/app/components/ui/button";
 import { Linkedin } from 'lucide-react';
 import { Github } from 'lucide-react';
 import { Send } from 'lucide-react';
+import Link from "next/link";
 
 const Footer = () => {
   return (
     <section className="border-t">
-      <div className="flex flex-col sm:flex-row justify-between items-center space-y-2 md:space-y-0">
-      <div className="p-4 md:p-8">
-            <Link className="text-primaryColor" href="/">
-                <span className='font-extrabold text-2xl md:text-3xl'>MM</span>
-            </Link>
-        </div>
+      <div className="flex flex-col sm:flex-row justify-between items-center space-y-2 md:space-y-0 p-4 md:p-8">
+          <Link className="text-primaryColor" href="/">
+              <span className='font-extrabold text-2xl md:text-3xl'>MM</span>
+          </Link>
         <div className="">
           <p className="text-center text-gray-200 hover:text-primaryColor duration-200">All Rights Reserved@Mahmoud Medhat</p>
         </div>
@@ -30,6 +28,6 @@ const Footer = () => {
       </div>
     </section>
   )
-}
+};
 
 export default Footer;

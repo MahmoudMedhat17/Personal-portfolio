@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+import { Button } from "@/app/components/ui/button";
 import { Download } from 'lucide-react';
 import { Linkedin } from 'lucide-react';
 import { Github } from 'lucide-react';
@@ -9,10 +9,10 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <section className="p-20 h-full">
+    <section className="p-8 md:p-20 h-full">
       <div className="flex flex-col lg:flex-row items-center justify-between gap-8">
         <div className="max-w-xl space-y-2 order-2 lg:order-1">
-          <p className="font-semibold text-lg md:text-xl text-primaryColor">Front End developer</p>
+          <p className="font-semibold text-lg md:text-xl text-primaryColor">Junior Front End developer</p>
           <p className="text-4xl md:text-5xl font-semibold">
           <span className="text-white">Hello, I am</span> <br />
           <span className="text-primaryColor">Mahmoud Medhat</span>
@@ -46,6 +46,6 @@ const Hero = () => {
       </div>
     </section>
   )
-}
+};
 
 export default Hero;
