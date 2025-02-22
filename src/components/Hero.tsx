@@ -17,7 +17,7 @@ const Hero = () => {
           <span className="text-white">Hello, I am</span> <br />
           <span className="text-primaryColor">Mahmoud Medhat</span>
           </p>
-          <p className="opacity-85 text-sm md:text-lg">
+          <p className="dark:text-white text-sm md:text-lg">
           Driven and innovative Front-End Developer with expertise in crafting responsive and visually appealing web interfaces using React.js and Next.js. Skilled at translating complex technical requirements into engaging user experiences and known for a precise, detail-oriented approach to UI design. Consistently delivering scalable, high-quality solutions with modern tools and frameworks.
           I thrive in delivering high-quality results while fostering strong, cohesive teams.
           </p>

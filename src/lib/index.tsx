@@ -82,3 +82,72 @@ export const techLinks = [
         title:"Figma"
     }
 ];
+
+
+export const serviceLinks = [
+    {
+        img:"/website.png",
+        title:"Websites",
+        desc:"Tailored web apps built with the latest technologies."
+    },
+    {
+        img:"/api.png",
+        title:"API Integration",
+        desc:"Seamless integration for smooth data sharing and functionality."
+    },
+    {
+        img:"/responsive-design.png",
+        title:"Responsive design",
+        desc:"Adaptive designs that fit all screens, ensuring great user experiences."
+    },
+    {
+        img:"/UI.png",
+        title:"User interface",
+        desc:"Engaging, responsive front-end designs enhancing user interactions."
+    }
+];
+
+
+
+export const projectLinks = [
+    {
+        img:"/AWA.png",
+        title:"AWA",
+        desc:"Responsive landing page for AWA, designed to showcase company offerings and enhance user experience."
+    },
+    {
+        img:"/Arqaam.png",
+        title:"Arqaam",
+        desc:"A user-centered landing page for Arqaam IT Solutions, focusing on aseamless interface and engaging design to highlight company services and drive user engagement."
+    },
+    {
+        img:"/Snapgram.png",
+        title:"Snapgram",
+        desc:"a full-stack social media application that enables users to create, edit, and delete posts, manage personal profiles, and connect with other users in a secure environment."
+    },
+    {
+        img:"/Recipe-app.png",
+        title:"Delicious",
+        desc:"A Responsive Recipe application that displays the popular recipes in the home page, search functionality for recipes and let the user see ingredients of the recipe they choose."
+    },
+    {
+        img:"/Cryptosite.png",
+        title:"Crypto-place",
+        desc:"A user-friendly platform built with React.js and styled with Tailwind CSS, offering real-time data on cryptocurrencies. It utilizes the CoinGecko API to display comprehensive details about various coins, including their current prices, market capitalization, trading volumes, price changes, and other key metrics. Users can easily search for specific coins, view their historical performance, and monitor market trends."
+    },
+    {
+        img:"/Burger-res.png",
+        title:"Burger Restaurant",
+        desc:"Developed an engaging and dynamic website for a burger restaurant, featuring intuitive navigation and visually appealing elements that highlight the restaurant's menu and offerings."        
+    },
+    {
+        img:"/Zenith-space.png",
+        title:"Zenith Space",
+        desc:"A responsive modern landing page built with React JS, Tailwind CSS"
+    },
+    {
+        img:"/ESHOP.png",
+        title:"E S H O P",
+        desc:"An e-commerece landing page that features a lot of products sold by ESHOP and built with React JS, React Router Dom, React Icons, React Slick Library and Tailwind CSS"
+    }
+];
