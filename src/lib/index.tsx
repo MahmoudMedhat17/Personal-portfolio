@@ -14,6 +14,13 @@ import { FaFigma } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { SiReactrouter } from "react-icons/si";
 import { SiShadcnui } from "react-icons/si";
+import { SiReacthookform } from "react-icons/si";
+import { SiAppwrite } from "react-icons/si";
+import { SiZod } from "react-icons/si";
+import { SiAxios } from "react-icons/si";
+import { SiChartdotjs } from "react-icons/si";
+import { FaMobileAlt } from "react-icons/fa";
+
 
 
 export const techLinks = [
@@ -113,41 +120,65 @@ export const projectLinks = [
     {
         img:"/AWA.png",
         title:"AWA",
-        desc:"Responsive landing page for AWA, designed to showcase company offerings and enhance user experience."
+        desc:"Responsive landing page for AWA, designed to showcase company offerings and enhance user experience.",
+        techStack:[
+            <RiNextjsFill size={30}/>,<SiTypescript size={30}/>,<RiTailwindCssFill size={30}/>,<SiShadcnui size={30}/>,<FaMobileAlt size={30}/>
+        ]
     },
     {
         img:"/Arqaam.png",
         title:"Arqaam",
-        desc:"A user-centered landing page for Arqaam IT Solutions, focusing on aseamless interface and engaging design to highlight company services and drive user engagement."
+        desc:"A user-centered landing page for Arqaam IT Solutions, focusing on aseamless interface and engaging design to highlight company services and drive user engagement.",
+        techStack:[
+            <RiNextjsFill size={30}/>,<SiTypescript size={30}/>,<RiTailwindCssFill size={30}/>,<SiShadcnui size={30}/>,<FaMobileAlt size={30}/>
+        ]
     },
     {
         img:"/Snapgram.png",
         title:"Snapgram",
-        desc:"a full-stack social media application that enables users to create, edit, and delete posts, manage personal profiles, and connect with other users in a secure environment."
+        desc:"a full-stack social media application that enables users to create, edit, and delete posts, manage personal profiles, and connect with other users in a secure environment.",
+        techStack:[
+            <FaReact size={30}/>,<SiReactrouter size={30}/>,<SiTypescript size={30}/>,<RiTailwindCssFill size={30}/>,<SiShadcnui size={30}/>,<SiReacthookform size={30}/>,<SiReactquery size={30}/>,<SiAppwrite size={30}/>,<SiZod size={30}/>,<FaMobileAlt size={30}/>
+        ]
     },
     {
         img:"/Recipe-app.png",
         title:"Delicious",
-        desc:"A Responsive Recipe application that displays the popular recipes in the home page, search functionality for recipes and let the user see ingredients of the recipe they choose."
+        desc:"A Responsive Recipe application that displays the popular recipes in the home page, search functionality for recipes and let the user see ingredients of the recipe they choose.",
+        techStack:[
+            <FaReact size={30}/>,<SiReactrouter size={30}/>,<SiTypescript size={30}/>,<RiTailwindCssFill size={30}/>,<SiShadcnui size={30}/>,<SiReacthookform size={30}/>,<SiAxios size={30}/>,<SiPostman size={30}/>,<FaMobileAlt size={30}/>
+        ]
     },
     {
         img:"/Cryptosite.png",
         title:"Crypto-place",
-        desc:"A user-friendly platform built with React.js and styled with Tailwind CSS, offering real-time data on cryptocurrencies. It utilizes the CoinGecko API to display comprehensive details about various coins, including their current prices, market capitalization, trading volumes, price changes, and other key metrics. Users can easily search for specific coins, view their historical performance, and monitor market trends."
+        desc:"A user-friendly platform built with React.js and styled with Tailwind CSS, offering real-time data on cryptocurrencies. It utilizes the CoinGecko API to display comprehensive details about various coins, including their current prices, market capitalization, trading volumes, price changes, and other key metrics. Users can easily search for specific coins, view their historical performance, and monitor market trends.",
+        techStack:[
+            <FaReact size={30}/>,<SiReactrouter size={30}/>,<SiTypescript size={30}/>,<RiTailwindCssFill size={30}/>,<SiChartdotjs size={30}/>,<SiReacthookform size={30}/>,<SiAxios size={30}/>,<SiPostman size={30}/>,<FaMobileAlt size={30}/>
+        ]
     },
     {
         img:"/Burger-res.png",
         title:"Burger Restaurant",
-        desc:"Developed an engaging and dynamic website for a burger restaurant, featuring intuitive navigation and visually appealing elements that highlight the restaurant's menu and offerings."        
+        desc:"Developed an engaging and dynamic website for a burger restaurant, featuring intuitive navigation and visually appealing elements that highlight the restaurant's menu and offerings.",
+        techStack:[
+            <FaReact size={30}/>,<SiReactrouter size={30}/>,<IoLogoJavascript size={30}/>,<RiTailwindCssFill size={30}/>,<FaMobileAlt size={30}/>
+        ]        
     },
     {
         img:"/Zenith-space.png",
         title:"Zenith Space",
-        desc:"A responsive modern landing page built with React JS, Tailwind CSS"
+        desc:"A responsive modern landing page built with React JS, Tailwind CSS",
+        techStack:[
+            <FaReact size={30}/>,<IoLogoJavascript size={30}/>,<RiTailwindCssFill size={30}/>,<FaMobileAlt size={30}/>
+        ]
     },
     {
         img:"/ESHOP.png",
         title:"E S H O P",
-        desc:"An e-commerece landing page that features a lot of products sold by ESHOP and built with React JS, React Router Dom, React Icons, React Slick Library and Tailwind CSS"
+        desc:"An e-commerece landing page that features a lot of products sold by ESHOP and built with React JS, React Router Dom, React Icons, React Slick Library and Tailwind CSS",
+        techStack:[
+            <FaReact size={30}/>,<IoLogoJavascript size={30}/>,<RiTailwindCssFill size={30}/>,<FaMobileAlt size={30}/>
+        ]
     }
 ];
