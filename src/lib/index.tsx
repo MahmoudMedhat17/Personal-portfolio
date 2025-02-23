@@ -142,7 +142,9 @@ export const projectLinks = [
                 icon:<FaMobileAlt size={30}/>,
                 title:"Mobile design"
             }
-        ]
+        ],
+        live:"https://www.awa-eg.com/",
+        repo:"https://github.com/MahmoudMedhat17/AWA_NEXT"
     },
     {
         img:"/Arqaam.png",
@@ -169,7 +171,9 @@ export const projectLinks = [
                 icon:<FaMobileAlt size={30}/>,
                 title:"Mobile design"
             }
-        ]
+        ],
+        live:"https://arqaam-it.com/",
+        repo:"https://github.com/MahmoudMedhat17/ARQAAM_NEXT"
     },
     {
         img:"/Snapgram.png",
@@ -216,7 +220,9 @@ export const projectLinks = [
                 icon:<FaMobileAlt size={30}/>,
                 title:"Mobile design"
             },
-        ]
+        ],
+        live:"https://snapgraam-six.vercel.app/",
+        repo:"https://github.com/MahmoudMedhat17/Snapgraam"
     },
     {
         img:"/Recipe-app.png",
@@ -259,7 +265,9 @@ export const projectLinks = [
                 icon:<FaMobileAlt size={30}/>,
                 title:"Mobile design"
             },
-        ]
+        ],
+        live:"https://recipe-ii5ote7js-mahmoud-medhats-projects.vercel.app/",
+        repo:"https://github.com/MahmoudMedhat17/Recipe-app"
     },
     {
         img:"/Cryptosite.png",
@@ -302,7 +310,9 @@ export const projectLinks = [
                 icon:<FaMobileAlt size={30}/>,
                 title:"Mobile design"
             },
-        ]
+        ],
+        live:"https://crypto-tracker-theta-hazel.vercel.app/",
+        repo:"https://github.com/MahmoudMedhat17/Crypto-Tracker"
     },
     {
         img:"/Burger-res.png",
@@ -329,7 +339,9 @@ export const projectLinks = [
                 icon:<FaMobileAlt size={30}/>,
                 title:"Mobile design"
             }
-        ]        
+        ]        ,
+        live:"https://burger-restaurant-three.vercel.app/",
+        repo:"https://github.com/MahmoudMedhat17/BurgerRestaurant"
     },
     {
         img:"/Zenith-space.png",
@@ -352,7 +364,9 @@ export const projectLinks = [
                 icon:<FaMobileAlt size={30}/>,
                 title:"Mobile design"
             }
-        ]
+        ],
+        live:"https://burger-restaurant-three.vercel.app/",
+        repo:"https://github.com/MahmoudMedhat17/BurgerRestaurant"
     },
     {
         img:"/ESHOP.png",
@@ -375,6 +389,8 @@ export const projectLinks = [
                 icon:<FaMobileAlt size={30}/>,
                 title:"Mobile design"
             }
-        ]
+        ],
+        live:"https://www.awa-eg.com/",
+        repo:"https://github.com/MahmoudMedhat17/Eshop"
     }
 ];
