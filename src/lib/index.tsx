@@ -122,7 +122,26 @@ export const projectLinks = [
         title:"AWA",
         desc:"Responsive landing page for AWA, designed to showcase company offerings and enhance user experience.",
         techStack:[
-            <RiNextjsFill size={30}/>,<SiTypescript size={30}/>,<RiTailwindCssFill size={30}/>,<SiShadcnui size={30}/>,<FaMobileAlt size={30}/>
+            {
+                icon:<RiNextjsFill size={30}/>,
+                title:"Next JS"
+            },
+            {
+                icon:<SiTypescript size={30}/>,
+                title:"TypeScript"
+            },
+            {
+                icon:<RiTailwindCssFill size={30}/>,
+                title:"Tailwind CSS"
+            },
+            {
+                icon:<SiShadcnui size={30}/>,
+                title:"Shadcn"
+            },
+            {
+                icon:<FaMobileAlt size={30}/>,
+                title:"Mobile design"
+            }
         ]
     },
     {
@@ -130,15 +149,73 @@ export const projectLinks = [
         title:"Arqaam",
         desc:"A user-centered landing page for Arqaam IT Solutions, focusing on aseamless interface and engaging design to highlight company services and drive user engagement.",
         techStack:[
-            <RiNextjsFill size={30}/>,<SiTypescript size={30}/>,<RiTailwindCssFill size={30}/>,<SiShadcnui size={30}/>,<FaMobileAlt size={30}/>
+            {
+                icon:<RiNextjsFill size={30}/>,
+                title:"Next JS"
+            },
+            {
+                icon:<SiTypescript size={30}/>,
+                title:"TypeScript"
+            },
+            {
+                icon:<RiTailwindCssFill size={30}/>,
+                title:"Tailwind CSS"
+            },
+            {
+                icon:<SiShadcnui size={30}/>,
+                title:"Shadcn"
+            },
+            {
+                icon:<FaMobileAlt size={30}/>,
+                title:"Mobile design"
+            }
         ]
     },
     {
         img:"/Snapgram.png",
         title:"Snapgram",
-        desc:"a full-stack social media application that enables users to create, edit, and delete posts, manage personal profiles, and connect with other users in a secure environment.",
+        desc:"A full-stack social media application that enables users to create, edit, and delete posts, manage personal profiles, and connect with other users in a secure environment.",
         techStack:[
-            <FaReact size={30}/>,<SiReactrouter size={30}/>,<SiTypescript size={30}/>,<RiTailwindCssFill size={30}/>,<SiShadcnui size={30}/>,<SiReacthookform size={30}/>,<SiReactquery size={30}/>,<SiAppwrite size={30}/>,<SiZod size={30}/>,<FaMobileAlt size={30}/>
+            {
+                icon:<FaReact size={30}/>,
+                title:"React JS"
+            },
+            {
+                icon:<SiReactrouter size={30}/>,
+                title:"React Router Dom"
+            },
+            {
+                icon:<SiTypescript size={30}/>,
+                title:"TypeScript"
+            },
+            {
+                icon:<RiTailwindCssFill size={30}/>,
+                title:"Tailwind CSS"
+            },
+            {
+                icon:<SiShadcnui size={30}/>,
+                title:"Shadcn"
+            },
+            {
+                icon:<SiReacthookform size={30}/>,
+                title:"React Hook Form"
+            },
+            {
+                icon:<SiReactquery size={30}/>,
+                title:"React Query"
+            },
+            {
+                icon:<SiAppwrite size={30}/>,
+                title:"AppWrite"
+            },
+            {
+                icon:<SiZod size={30}/>,
+                title:"Zod"
+            },
+            {
+                icon:<FaMobileAlt size={30}/>,
+                title:"Mobile design"
+            },
         ]
     },
     {
@@ -146,7 +223,42 @@ export const projectLinks = [
         title:"Delicious",
         desc:"A Responsive Recipe application that displays the popular recipes in the home page, search functionality for recipes and let the user see ingredients of the recipe they choose.",
         techStack:[
-            <FaReact size={30}/>,<SiReactrouter size={30}/>,<SiTypescript size={30}/>,<RiTailwindCssFill size={30}/>,<SiShadcnui size={30}/>,<SiReacthookform size={30}/>,<SiAxios size={30}/>,<SiPostman size={30}/>,<FaMobileAlt size={30}/>
+            {
+                icon:<FaReact size={30}/>,
+                title:"React JS"
+            },
+            {
+                icon:<SiReactrouter size={30}/>,
+                title:"React Router Dom"
+            },
+            {
+                icon:<SiTypescript size={30}/>,
+                title:"TypeScript"
+            },
+            {
+                icon:<RiTailwindCssFill size={30}/>,
+                title:"Tailwind CSS"
+            },
+            {
+                icon:<SiShadcnui size={30}/>,
+                title:"Shadcn"
+            },
+            {
+                icon:<SiReacthookform size={30}/>,
+                title:"React Hook Form"
+            },
+            {
+                icon:<SiAxios size={30}/>,
+                title:"Axios"
+            },
+            {
+                icon:<SiPostman size={30}/>,
+                title:"Postman"
+            },
+            {
+                icon:<FaMobileAlt size={30}/>,
+                title:"Mobile design"
+            },
         ]
     },
     {
@@ -154,15 +266,69 @@ export const projectLinks = [
         title:"Crypto-place",
         desc:"A user-friendly platform built with React.js and styled with Tailwind CSS, offering real-time data on cryptocurrencies. It utilizes the CoinGecko API to display comprehensive details about various coins, including their current prices, market capitalization, trading volumes, price changes, and other key metrics. Users can easily search for specific coins, view their historical performance, and monitor market trends.",
         techStack:[
-            <FaReact size={30}/>,<SiReactrouter size={30}/>,<SiTypescript size={30}/>,<RiTailwindCssFill size={30}/>,<SiChartdotjs size={30}/>,<SiReacthookform size={30}/>,<SiAxios size={30}/>,<SiPostman size={30}/>,<FaMobileAlt size={30}/>
+            {
+                icon:<FaReact size={30}/>,
+                title:"React JS"
+            },
+            {
+                icon:<SiReactrouter size={30}/>,
+                title:"React Router Dom"
+            },
+            {
+                icon:<SiTypescript size={30}/>,
+                title:"TypeScript"
+            },
+            {
+                icon:<RiTailwindCssFill size={30}/>,
+                title:"Tailwind CSS"
+            },
+            {
+                icon:<SiChartdotjs size={30}/>,
+                title:"Chart JS"
+            },
+            {
+                icon:<SiReacthookform size={30}/>,
+                title:"React Hook Form"
+            },
+            {
+                icon:<SiAxios size={30}/>,
+                title:"Axios"
+            },
+            {
+                icon:<SiPostman size={30}/>,
+                title:"Postman"
+            },
+            {
+                icon:<FaMobileAlt size={30}/>,
+                title:"Mobile design"
+            },
         ]
     },
     {
         img:"/Burger-res.png",
         title:"Burger Restaurant",
-        desc:"Developed an engaging and dynamic website for a burger restaurant, featuring intuitive navigation and visually appealing elements that highlight the restaurant's menu and offerings.",
+        desc:"An engaging and dynamic website for a burger restaurant, featuring intuitive navigation and visually appealing elements that highlight the restaurant's menu and offerings.",
         techStack:[
-            <FaReact size={30}/>,<SiReactrouter size={30}/>,<IoLogoJavascript size={30}/>,<RiTailwindCssFill size={30}/>,<FaMobileAlt size={30}/>
+            {
+                icon:<FaReact size={30}/>,
+                title:"React JS"
+            },
+            {
+                icon:<SiReactrouter size={30}/>,
+                title:"React Router Dom"
+            },
+            {
+                icon:<IoLogoJavascript size={30}/>,
+                title:"JavaScript"
+            },
+            {
+                icon:<RiTailwindCssFill size={30}/>,
+                title:"Tailwind CSS"
+            },
+            {
+                icon:<FaMobileAlt size={30}/>,
+                title:"Mobile design"
+            }
         ]        
     },
     {
@@ -170,7 +336,22 @@ export const projectLinks = [
         title:"Zenith Space",
         desc:"A responsive modern landing page built with React JS, Tailwind CSS",
         techStack:[
-            <FaReact size={30}/>,<IoLogoJavascript size={30}/>,<RiTailwindCssFill size={30}/>,<FaMobileAlt size={30}/>
+            {
+                icon:<FaReact size={30}/>,
+                title:"React JS"
+            },
+            {
+                icon:<IoLogoJavascript size={30}/>,
+                title:"JavaScript"
+            },
+            {
+                icon:<RiTailwindCssFill size={30}/>,
+                title:"Tailwind CSS"
+            },
+            {
+                icon:<FaMobileAlt size={30}/>,
+                title:"Mobile design"
+            }
         ]
     },
     {
@@ -178,7 +359,22 @@ export const projectLinks = [
         title:"E S H O P",
         desc:"An e-commerece landing page that features a lot of products sold by ESHOP and built with React JS, React Router Dom, React Icons, React Slick Library and Tailwind CSS",
         techStack:[
-            <FaReact size={30}/>,<IoLogoJavascript size={30}/>,<RiTailwindCssFill size={30}/>,<FaMobileAlt size={30}/>
+            {
+                icon:<FaReact size={30}/>,
+                title:"React JS"
+            },
+            {
+                icon:<IoLogoJavascript size={30}/>,
+                title:"JavaScript"
+            },
+            {
+                icon:<RiTailwindCssFill size={30}/>,
+                title:"Tailwind CSS"
+            },
+            {
+                icon:<FaMobileAlt size={30}/>,
+                title:"Mobile design"
+            }
         ]
     }
 ];
