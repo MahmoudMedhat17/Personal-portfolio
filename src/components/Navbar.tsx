@@ -44,7 +44,7 @@ const Navbar = () => {
       </nav>
     </div>
         <div
-          className="block rounded-sm  text-gray-600 transition hover:text-primaryColor md:hidden"
+          className="block rounded-sm  text-white transition hover:text-primaryColor md:hidden"
         >
         <Sheet>
             <SheetTrigger>

@@ -4,6 +4,7 @@ import { Linkedin } from 'lucide-react';
 import { Github } from 'lucide-react';
 import { Send } from 'lucide-react';
 import Link from "next/link";
+import { IoLogoWhatsapp } from "react-icons/io";
 
 
 
@@ -23,19 +24,22 @@ const Hero = () => {
           </p>
           <div className="flex flex-col md:flex-row items-center gap-1 md:gap-4 space-y-2 md:space-y-0">
             <div>
-              <Link href="">
+              <Link href="https://drive.google.com/uc?export=download&id=1vah70huoVIxoA-O_dWzLLVpBzITIRyUv" download>
                 <Button className="rounded-sm bg-transparent hover:bg-primaryColor hover:text-black duration-200">Download My Resume <Download/></Button>
               </Link>
             </div>
             <div className="flex gap-4">
-              <Link href="">
+              <Link href="https://www.linkedin.com/in/mahmoud-medhat-84166a205/">
                 <Button className="rounded-sm bg-transparent hover:bg-primaryColor hover:text-black duration-200"><Linkedin/></Button>
               </Link>
-              <Link href="">
+              <Link href="https://github.com/MahmoudMedhat17">
                 <Button className="rounded-sm bg-transparent hover:bg-primaryColor hover:text-black duration-200"><Github/></Button>
               </Link>
-              <Link href="">
+              <Link href="https://t.me/@MahmoudMedhat17">
                 <Button className="rounded-sm bg-transparent hover:bg-primaryColor hover:text-black duration-200"><Send/></Button>
+              </Link>
+              <Link href="https://wa.me/+201012107269">
+                <Button className="rounded-sm bg-transparent hover:bg-primaryColor hover:text-black duration-200"><IoLogoWhatsapp/></Button>
               </Link>
             </div>
           </div>

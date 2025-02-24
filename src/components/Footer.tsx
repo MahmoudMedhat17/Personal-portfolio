@@ -7,8 +7,7 @@ import { Send } from 'lucide-react';
 import Link from "next/link";
 import { MdEmail } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
-import { IoLocationSharp } from "react-icons/io5";
-import { ScrollToSection } from "@/lib/ScrollToSection";
+import { IoLocationSharp, IoLogoWhatsapp } from "react-icons/io5";
 import { ScrollToTop } from "@/lib/ScrollToTop";
 
 const Footer = () => {
@@ -32,6 +31,9 @@ const Footer = () => {
               </Link>
               <Link href="https://t.me/@MahmoudMedhat17">
                 <Button className="rounded-sm bg-transparent hover:bg-primaryColor hover:text-black duration-200"><Send/></Button>
+              </Link>
+              <Link href="https://wa.me/+201012107269">
+                <Button className="rounded-sm bg-transparent hover:bg-primaryColor hover:text-black duration-200"><IoLogoWhatsapp/></Button>
               </Link>
         </div>
       </div>
