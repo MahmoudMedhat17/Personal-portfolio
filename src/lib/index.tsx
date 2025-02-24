@@ -250,10 +250,6 @@ export const projectLinks = [
                 title:"Shadcn"
             },
             {
-                icon:<SiReacthookform size={30}/>,
-                title:"React Hook Form"
-            },
-            {
                 icon:<SiAxios size={30}/>,
                 title:"Axios"
             },
@@ -293,10 +289,6 @@ export const projectLinks = [
             {
                 icon:<SiChartdotjs size={30}/>,
                 title:"Chart JS"
-            },
-            {
-                icon:<SiReacthookform size={30}/>,
-                title:"React Hook Form"
             },
             {
                 icon:<SiAxios size={30}/>,

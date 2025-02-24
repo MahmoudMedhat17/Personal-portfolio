@@ -3,7 +3,7 @@ import { serviceLinks } from "@/lib";
 
 const Services = () => {
   return (
-    <section className="py-10">
+    <section className="py-10" id="services">
       <h3 className="text-center pb-10 font-extrabold text-white hover:text-primaryColor duration-200 text-3xl">What I Do</h3>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 px-8 md:px-0">
         {
