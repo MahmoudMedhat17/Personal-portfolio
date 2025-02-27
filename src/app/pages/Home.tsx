@@ -1,5 +1,3 @@
-"use client";
-
 import Navbar from "../../components/Navbar";
 import Hero from "../../components/Hero";
 import Skills from "../../components/Skills";
@@ -17,9 +15,9 @@ const Home = () => {
       <Navbar/>
       <div className="sm:px-6 lg:px-8">
         <Hero/>
-        <Skills/>
-        <Services/>
         <Projects/>
+        <Services/>
+        <Skills/>
       </div>
         <Footer/>
         <ArrowToTop/>
@@ -28,4 +26,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Home;

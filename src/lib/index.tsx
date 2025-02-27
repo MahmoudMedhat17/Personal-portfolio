@@ -23,6 +23,31 @@ import { FaMobileAlt } from "react-icons/fa";
 
 
 
+
+export const navLinks = [
+    {
+        section:"hero",
+        title:"Home"
+    },
+    {
+        section:"projects",
+        title:"Projects"
+    },
+    {
+        section:"services",
+        title:"Services"
+    },
+    {
+        section:"skills",
+        title:"Skills"
+    },
+    {
+        section:"footer",
+        title:"Contact Me"
+    }
+];
+
+
 export const techLinks = [
     {
         icon:<FaHtml5 size={100}/>,

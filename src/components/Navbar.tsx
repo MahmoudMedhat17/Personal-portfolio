@@ -12,7 +12,9 @@ import {
 import { Menu } from 'lucide-react';
 import { ScrollToSection } from '@/lib/ScrollToSection';
 import { ScrollToTop } from '@/lib/ScrollToTop';
-
+import { CiLight ,CiDark } from "react-icons/ci";
+import {navLinks} from "@/lib/index";
+import { ul } from 'motion/react-client';
   
 
 const Navbar = () => {
@@ -23,24 +25,15 @@ const Navbar = () => {
 
     <div className="flex flex-1 items-center justify-end">
     <nav aria-label="Global" className="hidden md:block">
-        <ul className="flex items-center gap-6 text-sm">
-          <li className="text-white transition hover:text-primaryColor cursor-pointer" onClick={()=>ScrollToSection("hero")}>
-             Home
-          </li>
-          
-          <li className="text-white transition hover:text-primaryColor cursor-pointer" onClick={()=>ScrollToSection("skills")}>
-            Skills
-          </li>
-
-          <li className="text-white transition hover:text-primaryColor cursor-pointer" onClick={()=>ScrollToSection("projects")}>
-             Projects 
-          </li>
-
-          <li className="text-white transition hover:text-primaryColor cursor-pointer" onClick={()=>ScrollToSection("footer")}>
-             Contact Me
-          </li>
-
-        </ul>
+        <div className='flex items-center gap-6 text-sm'>
+          {
+            navLinks.map((link)=>(
+              <ul className='' key={link.title} onClick={()=>ScrollToSection(link.section)}>
+                <li className='text-white transition hover:text-primaryColor cursor-pointer'>{link.title}</li>
+              </ul>
+            ))
+          }
+        </div>
       </nav>
     </div>
         <div
