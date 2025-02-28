@@ -11,7 +11,7 @@ import ArrowToTop from "@/lib/ArrowToTop";
 
 const Home = () => {
   return (
-    <>
+    <div className="dark:bg-darkModeColor bg-lightModeColor">
       <Navbar/>
       <div className="sm:px-6 lg:px-8">
         <Hero/>
@@ -22,7 +22,7 @@ const Home = () => {
         <Footer/>
         <ArrowToTop/>
         {/* <FaCircleArrowUp className="w-8 sm:w-10 h-8 sm:h-10 fixed right-10 bottom-10 text-white hover:text-primaryColor duration-200 cursor-pointer" onClick={ScrollToTop}/>         */}
-    </>
+    </div>
   )
 }
 
