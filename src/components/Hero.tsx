@@ -20,27 +20,27 @@ const Hero = () => {
           <motion.span className="dark:text-lightModeColor text-darkModeColor">Hi, I am</motion.span> <br className="sm:hidden"/>
           <motion.span className="dark:text-lightModeColor text-darkModeColor">Mahmoud Medhat</motion.span>
           </motion.p>
-          <motion.p className="text-white text-sm md:text-lg">
+          <motion.p className="dark:text-lightModeColor text-darkModeColor text-sm md:text-lg">
           I'm a junior frontend developer who is passionate about creating visually appealing and user friendly interfaces websites and web apps. I have a strong foundation in frontend development technologies. Though i also enjoy exploring new challenges. I am currently open for Full time or remote role if i'm a good fit for the company.
           </motion.p>
           <motion.div className="flex flex-col md:flex-row items-center gap-1 md:gap-4 space-y-2 md:space-y-0">
             <motion.div>
               <Link href="https://drive.google.com/uc?export=download&id=1vah70huoVIxoA-O_dWzLLVpBzITIRyUv" download>
-                <Button className="rounded-sm bg-transparent hover:bg-primaryColor hover:text-black duration-200">Download My Resume <Download/></Button>
+                <Button className="rounded-sm dark:text-lightModeColor text-darkModeColor hover:dark:bg-lightModeColor hover:dark:text-darkModeColor hover:bg-darkModeColor hover:text-lightModeColor duration-200">Download My Resume <Download/></Button>
               </Link>
             </motion.div>
             <motion.div className="flex gap-4">
               <Link href="https://www.linkedin.com/in/mahmoud-medhat-84166a205/">
-                <Button className="rounded-sm bg-transparent hover:bg-primaryColor hover:text-black duration-200"><Linkedin/></Button>
+                <Button className="rounded-sm dark:text-lightModeColor text-darkModeColor hover:dark:bg-lightModeColor hover:dark:text-darkModeColor hover:bg-darkModeColor hover:text-lightModeColor duration-200"><Linkedin/></Button>
               </Link>
               <Link href="https://github.com/MahmoudMedhat17">
-                <Button className="rounded-sm bg-transparent hover:bg-primaryColor hover:text-black duration-200"><Github/></Button>
+                <Button className="rounded-sm dark:text-lightModeColor text-darkModeColor hover:dark:bg-lightModeColor hover:dark:text-darkModeColor hover:bg-darkModeColor hover:text-lightModeColor duration-200"><Github/></Button>
               </Link>
               <Link href="https://t.me/@MahmoudMedhat17">
-                <Button className="rounded-sm bg-transparent hover:bg-primaryColor hover:text-black duration-200"><Send/></Button>
+                <Button className="rounded-sm dark:text-lightModeColor text-darkModeColor hover:dark:bg-lightModeColor hover:dark:text-darkModeColor hover:bg-darkModeColor hover:text-lightModeColor duration-200"><Send/></Button>
               </Link>
               <Link href="https://wa.me/+201012107269">
-                <Button className="rounded-sm bg-transparent hover:bg-primaryColor hover:text-black duration-200"><IoLogoWhatsapp/></Button>
+                <Button className="rounded-sm dark:text-lightModeColor text-darkModeColor hover:dark:bg-lightModeColor hover:dark:text-darkModeColor hover:bg-darkModeColor hover:text-lightModeColor duration-200"><IoLogoWhatsapp/></Button>
               </Link>
             </motion.div>
           </motion.div>

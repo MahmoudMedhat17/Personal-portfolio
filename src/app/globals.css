@@ -88,6 +88,17 @@
   background: #0754b9; 
 }
 
+@media(prefers-color-schema){
+ /* Handle */
+::-webkit-scrollbar-thumb {
+  background: #090c10; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #4b556326; 
+} 
+}
 @layer base {
   * {
     @apply border-border outline-ring/50;
