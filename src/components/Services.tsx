@@ -1,7 +1,22 @@
+"use client";
+
+import { useState, useEffect } from "react";
 import { serviceLinks } from "@/lib";
 
 
 const Services = () => {
+
+  const [theme,setTheme] = useState("");
+
+
+  useEffect(()=>{
+    const storedTheme = localStorage.getItem("theme");
+    if(storedTheme){
+      setTheme(storedTheme);
+    }
+    
+  },[]);
+
   return (
     <section className="py-10" id="services">
       <h3 className="text-center pb-10 font-extrabold dark:text-lightModeColor text-darkModeColor text-3xl">What I Do</h3>
@@ -10,8 +25,8 @@ const Services = () => {
           serviceLinks.map((service)=>(
             <div key={service.title} className="border-2 dark:border-lightModeColor border-darkModeColor p-8">
               <div className="flex flex-col justify-center items-center space-y-4">
-                <div className="hover:dark:bg-lightModeColor hover:bg-darkModeColor duration-200 p-4 border-2 dark:border-lightModeColor border-darkModeColor rounded-md">
-                  <img src={service.img} alt={`${service.title} logo`} className="w-20 h-20"/>
+                <div className="p-4 border-2 dark:border-lightModeColor border-darkModeColor rounded-md">
+                  <img src={theme === "dark" ?  service.lightImg : service.darkImg} alt={`${service.title} logo`} className="w-20 h-20"/>
                 </div>
                 <p className="text-center font-semibold dark:text-lightModeColor text-darkModeColor">{service.title}</p>
                 <p className="text-center dark:text-lightModeColor text-darkModeColor">{service.desc}</p>
@@ -22,6 +37,6 @@ const Services = () => {
       </div>
     </section>
   )
-}
+};
 
 export default Services;

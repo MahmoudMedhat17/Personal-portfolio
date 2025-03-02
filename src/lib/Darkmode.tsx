@@ -18,7 +18,6 @@ const Darkmode = () => {
         }
     },[theme]);
 
-
     const handleDarkMode = () =>{
         setTheme(theme === "light" ? "dark" : "light");
     };
@@ -29,6 +28,6 @@ const Darkmode = () => {
         <CiDark  onClick={handleDarkMode} size={30} className={`absolute ${theme === "light" ? "opacity-0" : "opacity-100"} cursor-pointer dark:text-lightModeColor text-darkModeColor`}/>
     </div>
   )
-}
+};
 
 export default Darkmode;

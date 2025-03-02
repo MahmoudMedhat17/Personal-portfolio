@@ -14,7 +14,11 @@ import { ScrollToSection } from '@/lib/ScrollToSection';
 import { ScrollToTop } from '@/lib/ScrollToTop';
 import {navLinks} from "@/lib/index";
 import Darkmode from '@/lib/Darkmode';
-  
+import { Button } from '@/app/components/ui/button';
+import { Linkedin } from 'lucide-react';
+import { Github } from 'lucide-react';
+import { Send } from 'lucide-react';
+import { IoLogoWhatsapp } from "react-icons/io5";
 
 const Navbar = () => {
   return (
@@ -31,8 +35,8 @@ const Navbar = () => {
         <div className='flex items-center gap-6 text-sm'>
           {
             navLinks.map((link)=>(
-              <ul className='' key={link.title} onClick={()=>ScrollToSection(link.section)}>
-                <li className='text-darkModeColor dark:text-lightModeColor cursor-pointer'>{link.title}</li>
+              <ul key={link.title} onClick={()=>ScrollToSection(link.section)}>
+                <li className='text-darkModeColor dark:text-lightModeColor cursor-pointer font-semibold'>{link.title}</li>
               </ul>
             ))
           }
@@ -54,12 +58,28 @@ const Navbar = () => {
         <SheetContent>
         <SheetTitle className='hidden'>Are you absolutely sure?</SheetTitle>
           <SheetHeader>
+            <>
             <SheetDescription className='flex flex-col items-center gap-6 justify-center h-screen'>
               <span className='dark:text-lightModeColor text-darkModeColor text-3xl cursor-pointer' onClick={()=>ScrollToSection("hero")}>Home</span>
               <span className='dark:text-lightModeColor text-darkModeColor text-3xl cursor-pointer' onClick={()=>ScrollToSection("skills")}>Skills</span>
               <span className='dark:text-lightModeColor text-darkModeColor text-3xl cursor-pointer' onClick={()=>ScrollToSection("projects")}>Projects</span>
               <span className='dark:text-lightModeColor text-darkModeColor text-3xl cursor-pointer' onClick={()=>ScrollToSection("footer")}>Contact Me</span>
+              <SheetDescription className="flex gap-4 mt-20">
+              <Link href="https://www.linkedin.com/in/mahmoud-medhat-84166a205/">
+                <Button className="rounded-sm bg-transparent dark:text-lightModeColor text-darkModeColor hover:dark:bg-darkModeColor hover:bg-lightModeColor duration-200"><Linkedin/></Button>
+              </Link>
+              <Link href="https://github.com/MahmoudMedhat17">
+                <Button className="rounded-sm bg-transparent dark:text-lightModeColor text-darkModeColor hover:dark:bg-darkModeColor hover:bg-lightModeColor duration-200"><Github/></Button>
+              </Link>
+              <Link href="https://t.me/@MahmoudMedhat17">
+                <Button className="rounded-sm bg-transparent dark:text-lightModeColor text-darkModeColor hover:dark:bg-darkModeColor hover:bg-lightModeColor duration-200"><Send/></Button>
+              </Link>
+              <Link href="https://wa.me/+201012107269">
+                <Button className="rounded-sm bg-transparent dark:text-lightModeColor text-darkModeColor hover:dark:bg-darkModeColor hover:bg-lightModeColor duration-200"><IoLogoWhatsapp/></Button>
+              </Link>
             </SheetDescription>
+            </SheetDescription>
+            </>
           </SheetHeader>
         </SheetContent>
     </Sheet>

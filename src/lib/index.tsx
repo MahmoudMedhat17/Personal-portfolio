@@ -20,7 +20,10 @@ import { SiZod } from "react-icons/si";
 import { SiAxios } from "react-icons/si";
 import { SiChartdotjs } from "react-icons/si";
 import { FaMobileAlt } from "react-icons/fa";
-
+import { IoLogoVercel } from "react-icons/io5";
+import { SiNetlify } from "react-icons/si";
+import { FaNpm } from "react-icons/fa";
+import { SiVite } from "react-icons/si";
 
 
 
@@ -112,28 +115,49 @@ export const techLinks = [
     {
         icon:<FaFigma size={100}/>,
         title:"Figma"
+    },
+    {
+        icon:<FaNpm size={100}/>,
+        title:"Npm"
+    },
+    {
+        icon:<SiVite size={100}/>,
+        title:"Vite"
+    },
+    {
+        icon:<SiNetlify size={100}/>,
+        title:"Netlify"
+    },
+    {
+        icon:<IoLogoVercel size={100}/>,
+        title:"Vercel"
     }
 ];
 
 
+
 export const serviceLinks = [
     {
-        img:"/website.png",
+        lightImg:"/world-wide-web.png",
+        darkImg:"/website.png",
         title:"Websites",
         desc:"Tailored web apps built with the latest technologies."
     },
     {
-        img:"/api.png",
+        lightImg:"/api-white.png",
+        darkImg:"/api.png",
         title:"API Integration",
         desc:"Seamless integration for smooth data sharing and functionality."
     },
     {
-        img:"/responsive-design.png",
+        lightImg:"/responsive-design-white.png",
+        darkImg:"/responsive-design.png",
         title:"Responsive design",
         desc:"Adaptive designs that fit all screens, ensuring great user experiences."
     },
     {
-        img:"/UI.png",
+        lightImg:"/UI-white.png",
+        darkImg:"/UI.png",
         title:"User interface",
         desc:"Engaging, responsive front-end designs enhancing user interactions."
     }
