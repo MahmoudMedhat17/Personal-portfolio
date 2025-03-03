@@ -1,6 +1,5 @@
 "use client";
 
-import Link from 'next/link';
 import React from 'react';
 import {
     Sheet,
@@ -15,11 +14,7 @@ import { ScrollToSection } from '@/lib/ScrollToSection';
 import { ScrollToTop } from '@/lib/ScrollToTop';
 import {navLinks} from "@/lib/index";
 import Darkmode from '@/lib/Darkmode';
-import { Button } from '@/app/components/ui/button';
-import { Linkedin } from 'lucide-react';
-import { Github } from 'lucide-react';
-import { Send } from 'lucide-react';
-import { IoLogoWhatsapp } from "react-icons/io5";
+
 
 const Navbar = () => {
   return (

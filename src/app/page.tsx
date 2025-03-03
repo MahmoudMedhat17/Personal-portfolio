@@ -2,7 +2,7 @@ import Home from "./pages/Home";
 
 const page = () => {
   return (
-    <div className="bg-gray-900">
+    <div>
     <Home/>
     </div>
   )
