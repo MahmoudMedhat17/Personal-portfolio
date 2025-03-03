@@ -12,6 +12,7 @@ const Darkmode = () => {
 
       if(typeof window !== undefined){
         localStorage.setItem("theme", theme);
+
         if(theme === "dark"){
           document.documentElement.classList.add("dark");
           document.documentElement.classList.remove("light");
