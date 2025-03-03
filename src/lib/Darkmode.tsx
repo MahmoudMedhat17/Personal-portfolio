@@ -10,7 +10,9 @@ const Darkmode = () => {
 
     useEffect(()=>{
 
-      localStorage.setItem("theme", theme);
+      if(typeof window !== undefined){
+        localStorage.setItem("theme", theme);
+      }
 
       if(theme === "dark"){
         document.documentElement.classList.add("dark");
