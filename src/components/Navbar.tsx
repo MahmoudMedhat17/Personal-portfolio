@@ -1,4 +1,5 @@
 "use client";
+
 import Link from 'next/link';
 import React from 'react';
 import {
@@ -48,45 +49,26 @@ const Navbar = () => {
       <Darkmode/>
     </div>
 
-    <div
-      className="block rounded-sm  dark:text-lightModeColor text-darkModeColor md:hidden"
-    >
-    <Sheet>
-        <SheetTrigger>
-          <Menu/>
-        </SheetTrigger>
-        <SheetContent>
-        <SheetTitle className='hidden'>Are you absolutely sure?</SheetTitle>
-          <SheetHeader>
-            <>
-            <SheetDescription className='flex flex-col items-center gap-6 justify-center h-screen'>
-              <span className='dark:text-lightModeColor text-darkModeColor text-3xl cursor-pointer' onClick={()=>ScrollToSection("hero")}>Home</span>
-              <span className='dark:text-lightModeColor text-darkModeColor text-3xl cursor-pointer' onClick={()=>ScrollToSection("skills")}>Skills</span>
-              <span className='dark:text-lightModeColor text-darkModeColor text-3xl cursor-pointer' onClick={()=>ScrollToSection("projects")}>Projects</span>
-              <span className='dark:text-lightModeColor text-darkModeColor text-3xl cursor-pointer' onClick={()=>ScrollToSection("footer")}>Contact Me</span>
-              <SheetDescription className="flex gap-4 mt-20">
-              <Link href="https://www.linkedin.com/in/mahmoud-medhat-84166a205/">
-                <Button className="rounded-sm bg-transparent dark:text-lightModeColor text-darkModeColor hover:dark:bg-darkModeColor hover:bg-lightModeColor duration-200"><Linkedin/></Button>
-              </Link>
-              <Link href="https://github.com/MahmoudMedhat17">
-                <Button className="rounded-sm bg-transparent dark:text-lightModeColor text-darkModeColor hover:dark:bg-darkModeColor hover:bg-lightModeColor duration-200"><Github/></Button>
-              </Link>
-              <Link href="https://t.me/@MahmoudMedhat17">
-                <Button className="rounded-sm bg-transparent dark:text-lightModeColor text-darkModeColor hover:dark:bg-darkModeColor hover:bg-lightModeColor duration-200"><Send/></Button>
-              </Link>
-              <Link href="https://wa.me/+201012107269">
-                <Button className="rounded-sm bg-transparent dark:text-lightModeColor text-darkModeColor hover:dark:bg-darkModeColor hover:bg-lightModeColor duration-200"><IoLogoWhatsapp/></Button>
-              </Link>
-            </SheetDescription>
-            </SheetDescription>
-            </>
-          </SheetHeader>
-        </SheetContent>
-    </Sheet>
+    <div className="block rounded-sm  dark:text-lightModeColor text-darkModeColor md:hidden">
+      <Sheet>
+          <SheetTrigger>
+            <Menu/>
+          </SheetTrigger>
+          <SheetContent>
+          <SheetTitle className='hidden'>Are you absolutely sure?</SheetTitle>
+            <SheetHeader>
+              <SheetDescription className='flex flex-col items-center gap-6 justify-center h-screen'>
+                <span className='dark:text-lightModeColor text-darkModeColor text-3xl cursor-pointer' onClick={()=>ScrollToSection("hero")}>Home</span>
+                <span className='dark:text-lightModeColor text-darkModeColor text-3xl cursor-pointer' onClick={()=>ScrollToSection("projects")}>Projects</span>
+                <span className='dark:text-lightModeColor text-darkModeColor text-3xl cursor-pointer' onClick={()=>ScrollToSection("skills")}>Skills</span>
+                <span className='dark:text-lightModeColor text-darkModeColor text-3xl cursor-pointer' onClick={()=>ScrollToSection("footer")}>Contact Me</span>
+              </SheetDescription>
+            </SheetHeader>
+          </SheetContent>
+      </Sheet>
     </div>
   </div>
 </header>
-  )
-};
+  )};
 
 export default Navbar;

@@ -14,7 +14,6 @@ const Services = () => {
     if(storedTheme){
       setTheme(storedTheme);
     }
-    
   },[]);
 
   return (
@@ -26,7 +25,7 @@ const Services = () => {
             <div key={service.title} className="border-2 dark:border-lightModeColor border-darkModeColor p-8">
               <div className="flex flex-col justify-center items-center space-y-4">
                 <div className="p-4 border-2 dark:border-lightModeColor border-darkModeColor rounded-md">
-                  <img src={theme === "dark" ?  service.lightImg : service.darkImg} alt={`${service.title} logo`} className="w-20 h-20"/>
+                  <img src={theme === "light" ?  service.darkImg : service.lightImg} alt={`${service.title} logo`} className="w-20 h-20"/>
                 </div>
                 <p className="text-center font-semibold dark:text-lightModeColor text-darkModeColor">{service.title}</p>
                 <p className="text-center dark:text-lightModeColor text-darkModeColor">{service.desc}</p>

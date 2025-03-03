@@ -1,20 +1,16 @@
 import { CiDark, CiLight } from "react-icons/ci";
 import { useEffect, useState } from "react";
 
-
 const Darkmode = () => {
 
-    const [theme,setTheme] = useState((localStorage.getItem("theme") || "light"));
+  const [theme,setTheme] = useState(localStorage.getItem("theme") || "light");
 
     useEffect(()=>{
         localStorage.setItem("theme",theme);
 
-        if(theme === "dark"){
-            document.documentElement.classList.add("dark");
-            document.documentElement.classList.remove("light");
-        }else{
-            document.documentElement.classList.add("light");
-            document.documentElement.classList.remove("dark");
+        if(theme){
+            document.documentElement.classList.toggle("dark", theme === "dark");
+            document.documentElement.classList.toggle("light", theme === "light");
         }
     },[theme]);
 

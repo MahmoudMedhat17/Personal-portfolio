@@ -25,7 +25,7 @@ const ArrowToTop = () => {
   },[]);
   
   return (
-    <button onClick={()=>ScrollToTop()} className="dark:border-lightModeColor border-darkModeColor fixed right-10 bottom-10 w-16 p-2 md:p-4 rounded-full flex justify-center items-center border-2 z-50">
+    <button onClick={()=>ScrollToTop()} className="dark:border-lightModeColor border-darkModeColor dark:text-lightModeColor text-darkModeColor fixed right-10 bottom-10 w-16 p-2 md:p-4 rounded-full flex justify-center items-center border-2 z-50">
       <div>
         <FaArrowUp className="text-primaryColor"/>
       </div>
