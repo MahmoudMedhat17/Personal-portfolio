@@ -1,6 +1,6 @@
 "use client";
 
-import { Button } from "@/app/components/ui/button";
+import { Button } from "@/components/ui/button";
 import { Download } from 'lucide-react';
 import { Linkedin } from 'lucide-react';
 import { Github } from 'lucide-react';

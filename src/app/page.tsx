@@ -3,7 +3,7 @@ import Home from "./pages/Home";
 const page = () => {
   return (
     <div>
-    <Home/>
+      <Home/>
     </div>
   )
 };

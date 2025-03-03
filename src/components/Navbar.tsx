@@ -8,7 +8,7 @@ import {
     SheetHeader,
     SheetTitle,
     SheetTrigger,
-  } from "@/app/components/ui/sheet";
+  } from "@/components/ui/sheet";
 import { Menu } from 'lucide-react';
 import { ScrollToSection } from '@/lib/ScrollToSection';
 import { ScrollToTop } from '@/lib/ScrollToTop';
