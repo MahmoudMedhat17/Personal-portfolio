@@ -1,3 +1,6 @@
+"use client";
+
+
 import { CiDark, CiLight } from "react-icons/ci";
 import { useEffect, useState } from "react";
 
