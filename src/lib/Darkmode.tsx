@@ -6,11 +6,18 @@ import { useEffect, useState } from "react";
 
 const Darkmode = () => {
 
-    const [theme,setTheme] = useState(localStorage.getItem("theme") ||"light");
+    const [theme,setTheme] = useState<string | null>(null);
+
+    useEffect(()=>{
+     if(typeof window !== undefined){
+      const storedTheme = localStorage.getItem("theme") || "light";
+      setTheme(storedTheme);
+     }
+    },[]);
 
     useEffect(()=>{
 
-      if(typeof window !== undefined){
+      if(typeof window !== undefined && theme){
         localStorage.setItem("theme", theme);
 
         if(theme === "dark"){
@@ -26,7 +33,7 @@ const Darkmode = () => {
 
 
     const handleDarkMode = () =>{
-      setTheme(theme === "dark" ? "light" : "dark");
+      setTheme((prev)=> (prev === "dark" ? "light" : "dark"));
     }
   
   return (
