@@ -1,7 +1,7 @@
-import Navbar from "../../components/Navbar";
-import Hero from "../../components/Hero";
-import Skills from "../../components/Skills";
-import Footer from "../../components/Footer";
+import Navbar from "@/components/Navbar";
+import Hero from "@/components/Hero";
+import Skills from "@/components/Skills";
+import Footer from "@/components/Footer";
 import Services from "@/components/Services";
 import Projects from "@/components/Projects";
 import { FaCircleArrowUp } from "react-icons/fa6";
