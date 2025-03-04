@@ -406,8 +406,8 @@ export const projectLinks = [
                 title:"Mobile design"
             }
         ],
-        live:"https://burger-restaurant-three.vercel.app/",
-        repo:"https://github.com/MahmoudMedhat17/BurgerRestaurant"
+        live:"https://zenith-space.vercel.app/",
+        repo:"https://github.com/MahmoudMedhat17/Zenith-Space"
     },
     {
         img:"/ESHOP.png",
@@ -431,7 +431,7 @@ export const projectLinks = [
                 title:"Mobile design"
             }
         ],
-        live:"https://www.awa-eg.com/",
+        live:"https://eshop-azure.vercel.app/",
         repo:"https://github.com/MahmoudMedhat17/Eshop"
     }
 ];

@@ -22,8 +22,8 @@ const Projects = () => {
                     <img src={project.img} alt={`${project.title} logo`}/>
                     <div className="absolute dark:bg-lightModeColor bg-darkModeColor opacity-0 group-hover:opacity-50 duration-200 inset-0"></div>
                     <div className="hidden absolute inset-0 group-hover:flex justify-center items-center gap-8 duration-200">
-                      <Link href={project.live} className="dark:bg-lightModeColor bg-darkModeColor dark:text-darkModeColor text-lightModeColor font-semibold p-4 flex justify-center items-center gap-2 hover:bg-primaryColor/80 duration-200">Live <MdArrowOutward/></Link>
-                      <Link href={project.repo} className="dark:bg-lightModeColor bg-darkModeColor dark:text-darkModeColor text-lightModeColor font-semibold p-4 flex justify-center items-center gap-2 hover:bg-primaryColor/80 duration-200">Repo <FaGithub/></Link>
+                      <Link target="_blank" rel="noopener noreferrer" href={project.live} className="dark:bg-lightModeColor bg-darkModeColor dark:text-darkModeColor text-lightModeColor font-semibold p-4 flex justify-center items-center gap-2 hover:bg-primaryColor/80 duration-200">Live <MdArrowOutward/></Link>
+                      <Link target="_blank" rel="noopener noreferrer" href={project.repo} className="dark:bg-lightModeColor bg-darkModeColor dark:text-darkModeColor text-lightModeColor font-semibold p-4 flex justify-center items-center gap-2 hover:bg-primaryColor/80 duration-200">Repo <FaGithub/></Link>
                     </div>
                   </div>
                   <div className="px-2 space-y-2">
