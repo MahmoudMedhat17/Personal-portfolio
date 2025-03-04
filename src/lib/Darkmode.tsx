@@ -7,26 +7,29 @@ import { IoMoonOutline } from "react-icons/io5";
 
 const Darkmode = () => {
 
-  const [theme,setTheme] = useState(localStorage.getItem("theme") || "light");
+  const [theme,setTheme] = useState<string | null>(null);
 
 
   useEffect(()=>{
-    localStorage.setItem("theme", theme);
+    const storedTheme = localStorage.getItem("theme") || "light";
+    setTheme(storedTheme);
+  },[]);
 
-    if(theme === "dark"){
-      document.documentElement.classList.add("dark");
-      document.documentElement.classList.remove("light");
-    }
-    else{
-      document.documentElement.classList.add("light");
-      document.documentElement.classList.remove("dark");
+
+  useEffect(()=>{
+    if(theme){
+      localStorage.setItem("theme", theme);
+      document.documentElement.classList.toggle("dark", theme === "dark");
+      document.documentElement.classList.toggle("light", theme === "light");
     }
   },[theme]);
 
 
   const handleDarkMode = () =>{
     setTheme((prev)=> prev === "dark" ? "light" : "dark");
-  }
+  };
+
+  if(theme === null) return null;
 
   return (
     <div className='relative flex items-center'>
