@@ -24,7 +24,10 @@ import { IoLogoVercel } from "react-icons/io5";
 import { SiNetlify } from "react-icons/si";
 import { FaNpm } from "react-icons/fa";
 import { SiVite } from "react-icons/si";
-
+import { TbBrandFramerMotion } from "react-icons/tb";
+import { FaSass } from "react-icons/fa";
+import { SiLucide } from "react-icons/si";
+import { LuChartSpline } from "react-icons/lu";
 
 
 export const navLinks = [
@@ -85,6 +88,10 @@ export const techLinks = [
         title:"Bootstrap"
     },
     {
+        icon:<FaSass size={100}/>,
+        title:"Sass"
+    },
+    {
         icon:<SiMui size={100}/>,
         title:"MUI"
     },
@@ -115,6 +122,10 @@ export const techLinks = [
     {
         icon:<FaFigma size={100}/>,
         title:"Figma"
+    },
+    {
+        icon:<TbBrandFramerMotion size={100}/>,
+        title:"Framer Motion"
     },
     {
         icon:<FaNpm size={100}/>,
@@ -272,6 +283,43 @@ export const projectLinks = [
         ],
         live:"https://snapgraam-six.vercel.app/",
         repo:"https://github.com/MahmoudMedhat17/Snapgraam"
+    },
+    {
+        img:"/dashboard.png",
+        title:"Dashboard",
+        desc:"A Responsive dashboard that displays different types of charts.",
+        techStack:[
+            {
+                icon:<FaReact size={30}/>,
+                title:"React JS"
+            },
+            {
+                icon:<SiReactrouter size={30}/>,
+                title:"React Router Dom"
+            },
+            {
+                icon:<SiTypescript size={30}/>,
+                title:"TypeScript"
+            },
+            {
+                icon:<RiTailwindCssFill size={30}/>,
+                title:"Tailwind CSS"
+            },
+            {
+                icon:<LuChartSpline size={30}/>,
+                title:"Recharts"
+            },
+            {
+                icon:<SiLucide size={30}/>,
+                title:"Lucide-React"
+            },
+            {
+                icon:<FaMobileAlt size={30}/>,
+                title:"Mobile design"
+            },
+        ],
+        live:"https://dashboard-one-pied-50.vercel.app/",
+        repo:"https://github.com/MahmoudMedhat17/Dashboard"
     },
     {
         img:"/Recipe-app.png",
