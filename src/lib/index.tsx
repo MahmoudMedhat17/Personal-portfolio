@@ -30,6 +30,7 @@ import { SiLucide } from "react-icons/si";
 import { LuChartSpline } from "react-icons/lu";
 
 
+
 export const navLinks = [
     {
         section:"hero",
@@ -283,6 +284,39 @@ export const projectLinks = [
         ],
         live:"https://snapgraam-six.vercel.app/",
         repo:"https://github.com/MahmoudMedhat17/Snapgraam"
+    },
+    {
+        img:"/storeFilteration.png",
+        title:"Mini Store",
+        desc:"A mockup E-commerce Store that gets it's data from an API with different filteration methods and a pagination to switch between pages.",
+        techStack:[
+            {
+                icon:<FaReact size={30}/>,
+                title:"React JS"
+            },
+            {
+                icon:<SiReactrouter size={30}/>,
+                title:"React Router Dom"
+            },
+            {
+                icon:<SiTypescript size={30}/>,
+                title:"TypeScript"
+            },
+            {
+                icon:<RiTailwindCssFill size={30}/>,
+                title:"Tailwind CSS"
+            },
+            {
+                icon:<SiAxios size={30}/>,
+                title:"Axios"
+            },
+            {
+                icon:<SiLucide size={30}/>,
+                title:"Lucide-React"
+            },
+        ],
+        live:"https://ecommerce-filteration.vercel.app/",
+        repo:"https://github.com/MahmoudMedhat17/EcommerceFilteration"
     },
     {
         img:"/dashboard.png",
