@@ -24,7 +24,7 @@ const Hero = () => {
           </p>
           <div className="flex flex-col md:flex-row items-center gap-1 md:gap-4 space-y-2 md:space-y-0">
             <div>
-              <Link href="https://drive.google.com/uc?export=download&id=1vah70huoVIxoA-O_dWzLLVpBzITIRyUv" download>
+              <Link href="https://drive.google.com/file/d/1lKjWOkUsNjc6q830qqdIYB3scatFYfCd/view?usp=sharing" download>
                 <Button className="rounded-sm dark:text-lightModeColor text-darkModeColor hover:dark:bg-lightModeColor hover:dark:text-darkModeColor hover:bg-darkModeColor hover:text-lightModeColor duration-200">Download My Resume <Download/></Button>
               </Link>
             </div>
