@@ -6,28 +6,28 @@ import { ScrollToTop } from "./ScrollToTop";
 
 
 const ArrowToTop = () => {
-  
-  const [scrollProgress, setScrollProgress] = useState(0);
 
-  useEffect(()=>{
-    const handleScroll = () =>{
-      const scrollTop = window.scrollY;
-      const scrollHeight = document.documentElement.scrollHeight - window.innerHeight;
-      const progress = scrollTop / scrollHeight;
+  // const [scrollProgress, setScrollProgress] = useState(0);
 
-      setScrollProgress(progress);
-    };
+  // useEffect(() => {
+  //   const handleScroll = () => {
+  //     const scrollTop = window.scrollY;
+  //     const scrollHeight = document.documentElement.scrollHeight - window.innerHeight;
+  //     const progress = scrollTop / scrollHeight;
 
-    window.addEventListener("scroll",handleScroll);
+  //     setScrollProgress(progress);
+  //   };
 
-    return ()=> window.removeEventListener("scroll",handleScroll);
+  //   window.addEventListener("scroll", handleScroll);
 
-  },[]);
-  
+  //   return () => window.removeEventListener("scroll", handleScroll);
+
+  // }, []);
+
   return (
-    <button onClick={()=>ScrollToTop()} className="dark:border-lightModeColor border-darkModeColor dark:text-lightModeColor text-darkModeColor fixed right-10 bottom-10 w-16 p-2 md:p-4 rounded-full flex justify-center items-center border-2 z-50">
+    <button onClick={() => ScrollToTop()} className="dark:border-lightModeColor border-darkModeColor dark:text-lightModeColor text-darkModeColor fixed right-10 bottom-10 w-16 p-2 md:p-4 rounded-full flex justify-center items-center border-2 z-50">
       <div>
-        <FaArrowUp className="text-primaryColor"/>
+        <FaArrowUp className="text-primaryColor" />
       </div>
     </button>
   )
