@@ -4,8 +4,6 @@ import Skills from "../../components/Skills";
 import Footer from "../../components/Footer";
 import Services from "@/components/Services";
 import Projects from "@/components/Projects";
-import { FaCircleArrowUp } from "react-icons/fa6";
-import { ScrollToTop } from "@/lib/ScrollToTop";
 import ArrowToTop from "@/lib/ArrowToTop";
 
 

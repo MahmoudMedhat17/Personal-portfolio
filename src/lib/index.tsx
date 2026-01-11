@@ -1,9 +1,9 @@
 import { FaHtml5, FaCss3Alt, FaReact, FaFigma, FaGithub, FaMobileAlt, FaSass, FaNpm } from "react-icons/fa";
 import { IoLogoJavascript, IoLogoVercel, IoLogoFirebase } from "react-icons/io5";
-import { SiTypescript, SiMui, SiRedux, SiPostman, SiReactrouter, SiShadcnui, SiReacthookform, SiAppwrite, SiZod, SiAxios, SiChartdotjs, SiNetlify, SiVite, SiLucide, SiReactquery, SiI18Next } from "react-icons/si";
+import { SiTypescript, SiMui, SiRedux, SiPostman, SiReactrouter, SiShadcnui, SiReacthookform, SiAppwrite, SiZod, SiAxios, SiChartdotjs, SiNetlify, SiVite, SiLucide, SiReactquery, SiI18Next, SiResend } from "react-icons/si";
 import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
 import { BsBootstrapFill } from "react-icons/bs";
-import { TbBrandFramerMotion } from "react-icons/tb";
+import { TbBrandFramerMotion, TbWorld } from "react-icons/tb";
 import { LuChartSpline } from "react-icons/lu";
 import { GrToast } from "react-icons/gr";
 import { MdEmail } from "react-icons/md";
@@ -97,6 +97,10 @@ export const techLinks = [
         title: "Zod"
     },
     {
+        icon: <TbWorld size={100} />,
+        title: "Next-Intl"
+    },
+    {
         icon: <SiI18Next size={100} />,
         title: "React i18n"
     },
@@ -184,12 +188,8 @@ export const projectLinks = [
         desc: "A full website that shows the services of Femex with translation applied for two different languages and form that send emails to the company email using an API service email.",
         techStack: [
             {
-                icon: <FaReact size={30} />,
-                title: "React JS"
-            },
-            {
-                icon: <SiReactrouter size={30} />,
-                title: "React Router Dom"
+                icon: <RiNextjsFill size={30} />,
+                title: "ReacNext JS"
             },
             {
                 icon: <SiTypescript size={30} />,
@@ -208,24 +208,24 @@ export const projectLinks = [
                 title: "Zod"
             },
             {
-                icon: <MdEmail size={30} />,
-                title: "EmailJS"
+                icon: <SiResend size={30} />,
+                title: "Resend Email"
             },
             {
                 icon: <FaMobileAlt size={30} />,
                 title: "Responsive"
             },
             {
-                icon: <SiI18Next size={30} />,
-                title: "React i18n(Translation)"
+                icon: <TbWorld size={30} />,
+                title: "Next-intl (Translation)"
             },
             {
                 icon: <GrToast size={30} />,
                 title: "React-Toastify"
             }
         ],
-        live: "https://emex-bice.vercel.app/",
-        repo: "https://github.com/MahmoudMedhat17/EMEX"
+        live: "https://femex-nlkl-p5qgcr49p-mahmoud-medhats-projects.vercel.app/en",
+        repo: "https://github.com/MahmoudMedhat17/Femex"
     },
     {
         img: "/Snapgram.png",
